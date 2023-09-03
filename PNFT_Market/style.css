@@ -1,0 +1,202 @@
+@font-face{
+    font-family: "Inter";
+    src: url(./Font/Inter.ttf);
+}
+
+.Logo_Div{
+    margin-top: 40px;
+}
+
+.Logo_text{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px){
+
+    
+    .Logo_Div{
+        margin-top: 88px;
+        justify-content: center;
+        flex-wrap: wrap ; 
+        width: 109px;
+    }
+
+    .col_for_logo{
+        justify-content: center;
+    }
+
+    .Form_Col{
+        margin-top: 56px !important;
+    }
+
+    .CreatedbyNAMDesign{
+        display: none;
+    }
+
+    img{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .Form_Col{
+        margin-top: 149px !important;
+    }
+}
+
+
+.Title_NFT{
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #344054;
+}
+
+.Paragraph_1{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+}
+
+#label_1, #label_2{
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+    margin-bottom: 8px;
+}
+
+#Email, #Password{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+    border-radius: 8px;
+    padding-left: 10px;
+    border-style: none;
+    outline-style: none;
+}
+
+#InputDiv{
+    background-color: white;
+    width: 100%;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkboxDiv{
+    align-items: center;
+}
+
+#checkbox{
+    background: #D0D5DD;
+    outline-style: none;
+    border-style: none;
+    border-radius: 4px;
+    border: 1px solid #D0D5DD
+}
+
+#checkbox_label{
+    margin-left: 4px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+}
+
+.Forgot_Password{
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#5429FF;
+}
+
+
+.Btn_Sign{
+    background: #5429FF;
+    border-style: none;
+    outline-style: none;
+    border-radius: 8px;
+    height: 44px;
+    margin-top: 44px;
+}
+
+.Btn_Sign a{
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.Btn_Sign_GOOGLE{
+    background: #D0D5DD;
+    border-style: none;
+    outline-style: none;
+    border-radius: 8px;
+    height: 44px;
+    margin-top: 16px;
+}
+
+.Btn_Sign_GOOGLE a {
+    align-items: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+    text-decoration: none;
+}
+
+.Create_Account_Div p {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:  #344054;
+}
+
+.Create_Account_Div a{
+    margin-left: 5px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:  #5429FF;
+    text-decoration: none;
+}
+
+.Pichture{
+    padding-top: 32px !important;
+    padding-right: 32px !important;
+    padding-bottom: 32px !important;
+}
+
+img{
+    width: 89%;
+}
+
+.CreatedbyNAMDesign{
+    font-family: "Inter";
+    margin-top: 169px !important;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    color: #667085;   
+}
